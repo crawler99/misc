@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#you need to login as root first, kill all processes that belong to the user
+#whose uid/gid need to be changed (kill -9 -u xxx) and run this script.
+
 #this script expects user to pass an argument for user to process
 pass1=$1
 new_uid=$2
