@@ -512,3 +512,4 @@ __git_ps1 ()
 		printf -- "$printf_format" "$gitstring"
 	fi
 }
+
